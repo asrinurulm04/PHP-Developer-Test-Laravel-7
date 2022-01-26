@@ -17,3 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('bootcamp','BootcampController@get_all_bootcamp');
+Route::post('add','BootcampController@insert_data');
+Route::put('update/{id}','BootcampController@update_data');
+Route::delete('delete/{id}','BootcampController@delete');
