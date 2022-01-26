@@ -14,10 +14,11 @@
 * menggunakan PSR4 autoload
 
 ## Test API menggunakan API Global dari project "PHP-Developer-Test-API"   
-![global](https://user-images.githubusercontent.com/92254494/151096895-2fe99db8-30f7-40cd-a52b-76a24b883beb.PNG)
+![global](https://user-images.githubusercontent.com/92254494/151180604-d73b1d8d-3048-401d-b980-5651b51e3891.PNG)
 
 ## Test API yang di buat di Laravel
-![lokal](https://user-images.githubusercontent.com/92254494/151096899-8cbf1a35-9425-4469-9079-7f7e6e1d71fc.PNG)
+![lokal](https://user-images.githubusercontent.com/92254494/151180549-fe2c3a76-1db7-49c9-bdb4-4d874cfdfb35.PNG)
+
 * test postmant Read
 ![test_reed API lokal](https://user-images.githubusercontent.com/92254494/151096990-611c24fc-9a49-4ace-aa5f-62c39e5caf5a.PNG)
 
