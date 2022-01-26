@@ -18,7 +18,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('bootcamp','BootcampController@get_all_bootcamp');
-Route::post('add','BootcampController@insert_data');
-Route::put('update/{id}','BootcampController@update_data');
-Route::delete('delete/{id}','BootcampController@delete');
+Route::get('bootcamp','BootcampController@get_all_bootcamp'); //Read
+Route::post('add','BootcampController@insert_data'); // Create
+Route::put('update/{id}','BootcampController@update_data'); // Update
+Route::delete('delete/{id}','BootcampController@delete'); // Delete

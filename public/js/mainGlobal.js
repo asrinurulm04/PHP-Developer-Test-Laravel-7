@@ -10,14 +10,14 @@
     const renderPosts = (posts) =>{
       posts.forEach(post => {
         output +=`
-          <div class="card mt-4 col-md-4 bg-light" style="width: 18rem;">
+          <div class="card mt-3 col-md-3 bg-light" style="width: 18rem;">
             <div class="card-body" data-id=${post.id}>
               <h5 class="card-title">${post.nama_produk}</h5>
               <p class="card-harga">${post.harga}</p>
               <p class="card-stok">${post.stok}</p>
               <p class="card-type">${post.type_produk}</p>
-              <a href="#" class="card-link" id="edit-post">Edit</a>
-              <a href="#" class="card-link" id="delete-post">Delete</a>
+              <a href="#" class="card-link btn btn-warning" id="edit-post">Edit</a>
+              <a href="#" class="card-link btn btn-danger" id="delete-post">Delete</a>
             </div>
           </div>
         `;
@@ -86,14 +86,14 @@
     // This returns a full array object of data
     data.data.forEach(post => {
       output +=
-        `<div class="card mt-4 col-md-4 bg-ligt">
+        `<div class="card mt-3 col-md-3 bg-ligt">
           <div class="card-body" data-id=${post.id}>
             <h5 class="card-title">${post.nama_produk}</h5>
             <p class="card-harga">${post.harga}</p>
               <p class="card-stok">${post.stok}</p>
               <p class="card-type">${post.type_produk}</p>
-            <a href="#" class="card-link" id="edit-post">Edit</a>
-            <a href="#" class="card-link" id="delete-post">Delete</a>
+              <a href="#" class="card-link btn btn-warning" id="edit-post">Edit</a>
+              <a href="#" class="card-link btn btn-danger" id="delete-post">Delete</a>
           </div>
         </div>`;
     });
