@@ -11,6 +11,7 @@
   <div class="container">
     <div class="row mt-3">
       <div class="col-md-6">
+        <a href="{{route('local')}}" class="btn btn-primary">Coba CRUD menggunakan API Local</a>
         <h3>Add New Produk With API Global</h3>
         <form class="add-post-form" id="form">
           <div class="form-group">
@@ -36,5 +37,6 @@
     <div class="post-list row">
     </div>
   </div>
+  <script src="./js/mainglobal.js"></script>
 </body>
 </html>

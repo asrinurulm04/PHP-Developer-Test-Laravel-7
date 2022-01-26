@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('api_local');
 });
+
+Route::get('global','GlobalController@index')->name('global');
+Route::get('local','GlobalController@index_local')->name('local');
