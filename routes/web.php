@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('api_local');
+    return view('auth.login');
 });
 
 Route::get('global','GlobalController@index')->name('global');
