@@ -87,7 +87,7 @@
                   </div>
                 </div>
                 <button type="submit" class="btn btn-primary">Add Product</button>
-                <a href="{{route('global')}}" type="button" class="btn btn-dark">Coba CRUD menggunakan API Local</a>
+                <a href="{{route('local')}}" type="button" class="btn btn-dark">Coba CRUD menggunakan API Local</a>
               </form>
             </div>
           </div>
