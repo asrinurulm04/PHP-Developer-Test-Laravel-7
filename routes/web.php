@@ -19,3 +19,6 @@ Route::get('/', function () {
 
 Route::get('global','GlobalController@index')->name('global');
 Route::get('local','GlobalController@index_local')->name('local');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
