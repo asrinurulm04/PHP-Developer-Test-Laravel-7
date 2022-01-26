@@ -12,5 +12,5 @@
 * Versi PHP     = 7.2.32
 * Database      = MySQL
 
-# Test API menggunakan API dari project "PHP-Developer-Test-API"   
-# Test API yang di buat di Laravel
+## Test API menggunakan API dari project "PHP-Developer-Test-API"   
+## Test API yang di buat di Laravel
