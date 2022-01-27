@@ -44,6 +44,7 @@ class BootcampController extends Controller
                 'data' => $update
             ],200);
         } else {
+            // jika data tidak tersedia
             return response()->json([
                 'status' => 'Not Found',
                 'message' => 'Data Tidak Ditemukan',
@@ -62,6 +63,7 @@ class BootcampController extends Controller
                 'message' => 'Data Berhasil Dihapus',
             ],200);
         } else {
+            // jika data tidak tersedia
             return response()->json([
                 'status' => 'Not Found',
                 'message' => 'Data Tidak Ditemukan',
